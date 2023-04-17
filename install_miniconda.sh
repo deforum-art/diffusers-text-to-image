@@ -14,4 +14,7 @@ bash Miniconda3-latest-Linux-x86_64.sh
 # Clean up the installer script
 rm Miniconda3-latest-Linux-x86_64.sh
 
+# Source .bashrc
+source ~/.bashrc
+
 echo "Miniconda3 installation completed!"
