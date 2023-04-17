@@ -1,7 +1,8 @@
 # diffusers-text-to-image
 
 ```
-apt install nvidia-cuda-toolkit
+sudo apt install nvidia-cuda-toolkit
+sudo apt install python3-pip
 ```
 ```
 git clone https://github.com/deforum-art/diffusers-text-to-image.git
