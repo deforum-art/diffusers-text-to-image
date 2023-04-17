@@ -1,3 +1,9 @@
+#!/bin/bash
+
+# Download Miniconda3 installer script
+echo "Downloading Miniconda3 installer script..."
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+
 # Make the installer script executable
 chmod +x Miniconda3-latest-Linux-x86_64.sh
 
