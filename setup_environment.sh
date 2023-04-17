@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Source .bashrc
-source ~/.bashrc
-
 # Create and activate conda environment
 conda create -n train python=3.10 -y
 conda activate train
