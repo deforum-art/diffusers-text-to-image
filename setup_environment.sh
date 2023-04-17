@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# Create and activate conda environment
-conda create -n train python=3.10 -y
-conda activate train
-
 # Install dependencies
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia -y
 
