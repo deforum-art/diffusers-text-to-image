@@ -5,7 +5,7 @@ apt install nvidia-cuda-toolkit
 ```
 ```
 git clone https://github.com/deforum-art/diffusers-text-to-image.git
-cd diffusers-text-no-image
+cd diffusers-text-to-image
 ```
 ```
 chmod +x install_miniconda.sh
