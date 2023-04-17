@@ -19,7 +19,9 @@ conda activate bm
 chmod +x setup_environment.sh
 ./setup_environment.sh
 ```
-
+```
+accelerate config
+```
 ```bash
 export MODEL_NAME="CompVis/stable-diffusion-v1-4"
 export dataset_name="lambdalabs/pokemon-blip-captions"
