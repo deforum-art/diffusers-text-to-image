@@ -3,6 +3,7 @@
 ```
 sudo apt install nvidia-cuda-toolkit
 sudo apt install python3-pip
+pip3 install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu118
 ```
 ```
 git clone https://github.com/deforum-art/diffusers-text-to-image.git
