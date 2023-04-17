@@ -1,6 +1,6 @@
 from datasets import load_dataset
 
-load dataset
+# load dataset
 indir='fxhash_008'
 dataset = load_dataset('imagefolder',data_dir=indir,split='train')
 dataset = dataset.remove_columns('label')
