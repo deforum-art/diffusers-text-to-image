@@ -9,6 +9,11 @@ chmod +x install_miniconda.sh
 ./install_miniconda.sh
 ```
 ```
+# Create and activate conda environment
+conda create -n train python=3.10 -y
+conda activate train
+```
+```
 chmod +x setup_environment.sh
 ./setup_environment.sh
 ```
