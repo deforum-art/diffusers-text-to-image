@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install dependencies
-# conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia -y
+conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
 
 # Clone repositories
 git clone https://github.com/huggingface/diffusers.git
