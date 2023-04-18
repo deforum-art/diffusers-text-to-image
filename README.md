@@ -1,11 +1,6 @@
 # diffusers-text-to-image
 
 ```
-sudo apt install nvidia-cuda-toolkit
-sudo apt install python3-pip
-pip3 install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu118
-```
-```
 git clone https://github.com/deforum-art/diffusers-text-to-image.git
 cd diffusers-text-to-image
 ```
@@ -16,6 +11,7 @@ chmod +x install_miniconda.sh
 ```
 conda create -n bm python=3.10 -y
 conda activate bm
+conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia -y
 ```
 ```
 chmod +x setup_environment.sh
